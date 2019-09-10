@@ -4,7 +4,7 @@ const NumberButton = props => {
   return (
     <>
       {/* {console.log(props)} */}
-      <button>{props.number}</button>
+      <button className="btn">{props.number}</button>
     </>
   );
 };

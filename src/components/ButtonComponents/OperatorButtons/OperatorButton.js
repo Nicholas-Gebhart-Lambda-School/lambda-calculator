@@ -5,7 +5,7 @@ const OperatorButton = props => {
     <>
       {/*  */}
       {/* {console.log(props.operator)} */}
-      <button>{props.operator}</button>
+      <button className="btn">{props.operator}</button>
     </>
   );
 };
